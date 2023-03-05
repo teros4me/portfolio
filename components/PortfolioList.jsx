@@ -13,7 +13,7 @@ const PortfolioList = () => {
       id: 6,
       name: "Gotlands socknar",
       desc: "Webbkarta gjord med QGIS, qgis2web och Leaflet.",
-      pic: <Image src={gotland} width={300} alt={"Miniatyrbild av webbkarta"} />,
+      pic: <Image src={gotland} height={300} alt={"Miniatyrbild av webbkarta"} />,
       codelink: "",
       weblink: <a href="https://teros4me.github.io/gotland" target="_blank">Webb</a>,
       zoomlink: ""
@@ -40,7 +40,7 @@ const PortfolioList = () => {
       id: 3,
       name: "Lingån i Frisbo, Bjuråker, Hälsingland",
       desc: "Karta över Lingåns sträckning, en jämförelse mellan år 1856 och 2020.",
-      pic: <Image src={lingan} height={300} alt={"Miniatyrbild av kartan"} />,
+      pic: <Image src={lingan} height={300} alt={"Miniatyrbild av karta"} />,
       codelink: "",
       weblink: "",
       zoomlink: <a href="https://teros4me.github.io/cv/lingan.png" target="_blank">Förstoring</a>
