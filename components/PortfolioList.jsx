@@ -5,9 +5,19 @@ import library_mvc from "../public/library_mvc.jpg";
 import lingan from "../public/lingan.png";
 import projekt_trad from "../public/projekt_trad.png";
 import projekt_barr from "../public/projekt_barr.png";
+import gotland from "../public/gotland.jpg";
 
 const PortfolioList = () => {
   const projects = [
+    {
+      id: 6,
+      name: "Gotlands socknar",
+      desc: "Webbkarta gjord med QGIS, qgis2web och Leaflet.",
+      pic: <Image src={gotland} width={300} alt={"Miniatyrbild av webbkarta"} />,
+      codelink: "",
+      weblink: <a href="https://teros4me.github.io/gotland" target="_blank">Webb</a>,
+      zoomlink: ""
+    },
     {
       id: 5,
       name: "C#, Implementera design patterns",
@@ -39,7 +49,7 @@ const PortfolioList = () => {
       id: 2,
       name: "Trädslagsfördelning i Sverige",
       desc: "Sverigekarta med pajdiagram över vilka trädslag som dominerar i Götaland, Svealand, Södra Norrland och Norra Norrland.",
-      pic: <Image src={projekt_trad} height={300} alt={"Miniatyrbild av kartan"} />,
+      pic: <Image src={projekt_trad} height={300} alt={"Miniatyrbild av karta"} />,
       codelink: "",
       weblink: "",
       zoomlink: <a href="https://teros4me.github.io/cv/projekt_trad.png" target="_blank">Förstoring</a>
@@ -48,7 +58,7 @@ const PortfolioList = () => {
       id: 1,
       name: "Barrträd i Sverige",
       desc: "Sverigekarta som visar procentandel barrträd i Sveriges län.",
-      pic: <Image src={projekt_barr} height={300} alt={"Miniatyrbild av kartan"} />,
+      pic: <Image src={projekt_barr} height={300} alt={"Miniatyrbild av karta"} />,
       codelink: "",
       weblink: "",
       zoomlink: <a href="https://teros4me.github.io/cv/projekt_barr.png" target="_blank">Förstoring</a>
