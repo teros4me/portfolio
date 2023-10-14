@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </section>
         <footer className='pt-20 pb-10 italic'>
-          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2023-03-05
+          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2023-10-14
         </footer>
       </main>
       </div>

@@ -6,20 +6,20 @@ const About = () => {
         <div className="shadow-lg p-5 rounded-xl bg-white dark:bg-black max-w-sm justify-center mx-auto">
           <h4 className='text-xl pt-8'>Datorkunskaper</h4>
             <p className="py-2 leading-8">
+              <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Arbetat med: </span>
+                Origo, CSS, HTML, JSON, Javascript, Geoserver, QGIS, FME
+            </p>
+            <p className="py-2 leading-8">
               <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Arbetat med på praktik: </span>
-                Azure, ASP.NET, React, Typescript, 
-                CSS, HTML, Agila metoder, 
-                QGIS, Solen Pro / Admin, ArcGIS Online, MapInfo
+                Azure, ASP.NET, React, Typescript, Agila metoder, Solen Pro / Admin, ArcGIS Online, MapInfo
             </p>
             <p className="py-2 leading-8">
               <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Skapat projekt med: </span>
-                API, Next.js, JSON, Javascript, Designmönster, 
-                Databaser, Objektorienterad programmering, C#
+                API, Next.js, Designmönster, Databaser, Objektorienterad programmering, C#, Mapbox
             </p>
             <p className="py-2 leading-8">
               <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Gjort övningar med: </span>
-                SQL, Java, XML, Android Studio, Multispec, 
-                Geoserver, Mapbox, ArcMap
+                SQL, Java, XML, Android Studio, Multispec, ArcMap
             </p>
             <p className="py-2 leading-8">
               <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Använt på fritiden: </span>

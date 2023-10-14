@@ -11,7 +11,7 @@ const PortfolioList = () => {
   const projects = [
     {
       id: 6,
-      name: "Gotlands socknar",
+      name: "Gotlands socknar och orter",
       desc: "Webbkarta gjord med QGIS, qgis2web och Leaflet.",
       pic: <Image src={gotland} height={300} alt={"Miniatyrbild av webbkarta"} />,
       codelink: "",
