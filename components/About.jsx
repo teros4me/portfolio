@@ -15,15 +15,8 @@ const About = () => {
             </p>
             <p className="py-2 leading-8">
               <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Skapat projekt med: </span>
-                API, Next.js, Designmönster, Databaser, Objektorienterad programmering, C#, Mapbox
-            </p>
-            <p className="py-2 leading-8">
-              <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Gjort övningar med: </span>
-                SQL, Java, XML, Android Studio, Multispec, ArcMap
-            </p>
-            <p className="py-2 leading-8">
-              <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Använt på fritiden: </span>
-                QField
+                API, Next.js, Designmönster, Databaser, Objektorienterad programmering, C#, Mapbox,
+                SQL, Java, XML, Android Studio, Multispec, ArcMap, QField
             </p>
         </div>
         <div className="shadow-lg p-5 rounded-xl bg-white dark:bg-black max-w-lg justify-center mx-auto">
@@ -34,6 +27,14 @@ const About = () => {
               <li>Github: <a href='https://github.com/teros4me' target="_blank">https://github.com/teros4me</a></li>
               <li>LinkedIn: <a href="https://www.linkedin.com/in/elijas-andersson/" target="_blank">https://www.linkedin.com/in/elijas-andersson</a></li>
             </ul>
+            <p>&nbsp;</p>
+            <h4 className='text-xl pt-8'>Utbildningar</h4>
+            <p className="py-2 leading-8">
+            Mobila System och GIT, YH-utbildning, distans, Ocellus Information Systems, Uppsala, sep 2019 – jun 2021
+            </p>
+            <p className="py-2 leading-8">
+            Systemutvecklare .NET med AI-kompetens, YH-utbildning, Edugrade, Hudiksvall, sep 2021 - apr 2023
+            </p>
         </div>
       </div>
     </div>
