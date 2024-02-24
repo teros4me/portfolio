@@ -61,6 +61,7 @@ export default function Home() {
           <div className=' text-center p-10'>
             <h1 className=' text-5xl pb-2 dark:text-green-200 text-mygreen-55 font-medium md:text-5xl'>Elijas Andersson</h1>
             <h2 className='text-2xl py-2 md:text-3xl'>GIS-ingenjör</h2>
+            <h3 className='text-xl py-2 md:text-2xl'>med utvecklarkompetens</h3>
             {/* <h3 className='mt-3 text-sm md:text-md max-w-md'>
               Digitala kartor för webb och utskrift, webbutveckling och systemutveckling.</h3> */}
           </div>
@@ -86,7 +87,7 @@ export default function Home() {
           </div>
         </section>
         <footer className='pt-20 pb-10 italic'>
-          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2024-02-20
+          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2024-02-24
         </footer>
       </main>
       </div>
