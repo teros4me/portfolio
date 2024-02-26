@@ -4,6 +4,7 @@ import lingan from "../public/lingan.png";
 import projekt_trad from "../public/projekt_trad.png";
 import projekt_barr from "../public/projekt_barr.png";
 import gotland from "../public/gotland.jpg";
+import infart from "../public/infart.png";
 
 const PortfolioList = () => {
   const projects = [
