@@ -77,6 +77,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl pt-20" id='portfolio'>Portfolio</h3>
+            <p>Fler projekt finns på <a href='https://github.com/teros4me' target="_blank">https://github.com/teros4me</a></p>
             <PortfolioList />
           </div>
         </section>
@@ -87,7 +88,7 @@ export default function Home() {
           </div>
         </section>
         <footer className='pt-20 pb-10 italic'>
-          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2024-02-24
+          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2024-02-26
         </footer>
       </main>
       </div>

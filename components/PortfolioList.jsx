@@ -1,7 +1,5 @@
 import Project from "./Project";
 import Image from "next/image";
-import design_imp from "../public/design_imp.jpg";
-import library_mvc from "../public/library_mvc.jpg";
 import lingan from "../public/lingan.png";
 import projekt_trad from "../public/projekt_trad.png";
 import projekt_barr from "../public/projekt_barr.png";
@@ -10,30 +8,21 @@ import gotland from "../public/gotland.jpg";
 const PortfolioList = () => {
   const projects = [
     {
-      id: 6,
+      id: 5,
+      name: "Infart Hudiksvall 1956",
+      desc: "Karta över infartsvägar från Bergsjövägen till Hudiksvall 1956.",
+      pic: <Image src={infart} height={300} alt={"Miniatyrbild av karta"} />,
+      codelink: "",
+      weblink: "",
+      zoomlink: <a href="https://teros4me.github.io/kartor/infart.png" target="_blank">Förstoring</a>
+    },
+    {
+      id: 4,
       name: "Gotlands socknar och orter",
       desc: "Webbkarta gjord med QGIS, qgis2web och Leaflet.",
       pic: <Image src={gotland} height={300} alt={"Miniatyrbild av webbkarta"} />,
       codelink: "",
       weblink: <a href="https://teros4me.github.io/gotland" target="_blank">Webb</a>,
-      zoomlink: ""
-    },
-    {
-      id: 5,
-      name: "C#, Implementera design patterns",
-      desc: "",
-      pic: <Image src={design_imp} width={300} alt={"Miniatyrbild av konsollapplikation"} />,
-      codelink: <a href="https://github.com/teros4me/Designpattern_labb1" target="_blank">Kod</a>,
-      weblink: "",
-      zoomlink: ""
-    },
-    {
-      id: 4,
-      name: "Webbsida i ASP.NET med MVC",
-      desc: "",
-      pic: <Image src={library_mvc} width={300} alt={"Miniatyrbild av webbsida"} />,
-      codelink: <a href="https://github.com/teros4me/Labb4_MVC" target="_blank">Kod</a>,
-      weblink: "",
       zoomlink: ""
     },
     {
