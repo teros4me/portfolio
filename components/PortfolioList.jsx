@@ -5,9 +5,19 @@ import projekt_trad from "../public/projekt_trad.png";
 import projekt_barr from "../public/projekt_barr.png";
 import gotland from "../public/gotland.jpg";
 import infart from "../public/infart.png";
+import kreativ from "../public/kreativ.png"
 
 const PortfolioList = () => {
   const projects = [
+    {
+      id: 6,
+      name: "Kreativrunda 2025",
+      desc: "Kreativrunda i Dellenbygden 11-12 juli 2025.",
+      pic: <Image src={kreativ} height={300} alt={"Miniatyrbild av karta"} />,
+      codelink: "",
+      weblink: <a href="https://kreativrunda.navura.se" target="_blank">Webb</a>,
+      zoomlink: ""
+    },
     {
       id: 5,
       name: "Infart Hudiksvall 1956",

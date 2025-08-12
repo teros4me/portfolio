@@ -11,7 +11,7 @@ import About from '@/components/About';
 
 export default function Home() {
 
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const [nav, setNav] = useState(false);
 
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </section>
         <footer className='pt-20 pb-10 italic'>
-          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2024-02-26
+          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2025-08-12
         </footer>
       </main>
       </div>

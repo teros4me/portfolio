@@ -22,7 +22,7 @@ const About = () => {
         <div className="shadow-lg p-5 rounded-xl bg-white dark:bg-black max-w-lg justify-center mx-auto">
           <h4 className="text-xl font-medium pt-8 pb-2">Elijas Andersson</h4>
             <ul>
-              <li>Bor i Hudiksvalls kommun, Gävleborgs län, norra Hälsingland</li>
+              <li>Bor i norra Hälsingland</li>
               <li>E-post: <a href="mailto:elijas.andersson@protonmail.com">elijas.andersson@protonmail.com</a></li>
               <li>Github: <a href='https://github.com/teros4me' target="_blank">https://github.com/teros4me</a></li>
               <li>LinkedIn: <a href="https://www.linkedin.com/in/elijas-andersson/" target="_blank">https://www.linkedin.com/in/elijas-andersson</a></li>
@@ -34,6 +34,9 @@ const About = () => {
             </p>
             <p className="py-2 leading-8">
             Systemutvecklare .NET med AI-kompetens, YH-utbildning, Edugrade, Hudiksvall, sep 2021 - apr 2023
+            </p>
+            <p className="py-2 leading-8">
+            Markmodellering och kartering med drönare, YH-kurs, Kartotek, Kista, mar 2024 - jun 2024
             </p>
         </div>
       </div>
