@@ -3,8 +3,6 @@ import Link from "next/link";
 import {BiWorld} from "react-icons/bi";
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiOutlineMenu, AiOutlineClose, AiFillLinkedin, AiFillGithub} from "react-icons/ai";
-import Image from 'next/image';
-import avatar from "../public/avatar.png";
 import { useState } from 'react';
 import PortfolioList from '@/components/PortfolioList';
 import About from '@/components/About';
@@ -69,9 +67,6 @@ export default function Home() {
             <a href='https://www.linkedin.com/in/elijas-andersson/' target="_blank"><AiFillLinkedin /></a>
             <a href='https://github.com/teros4me' target="_blank"><AiFillGithub /></a>
           </div>
-          <div className='justify-center pt-10 md:ml-auto w-40 md:w-60 lg:w-80'>
-            <Image src={avatar} alt={"Avatarbild på Elijas"} />
-          </div>
         </section>
         </div>
         <section>
@@ -88,7 +83,7 @@ export default function Home() {
           </div>
         </section>
         <footer className='pt-20 pb-10 italic'>
-          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2025-08-12
+          &copy; Elijas Andersson 2023. Skapad i React/NextJs med Tailwind css. Uppdaterad: 2025-09-28
         </footer>
       </main>
       </div>

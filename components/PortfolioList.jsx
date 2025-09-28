@@ -25,7 +25,7 @@ const PortfolioList = () => {
       pic: <Image src={infart} height={300} alt={"Miniatyrbild av karta"} />,
       codelink: "",
       weblink: "",
-      zoomlink: <a href="https://teros4me.github.io/kartor/infart.png" target="_blank">Förstoring</a>
+      zoomlink: <a href="https://teros4me.github.io/kartor/infart.png" target="_blank">Bild</a>
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const PortfolioList = () => {
       pic: <Image src={lingan} height={300} alt={"Miniatyrbild av karta"} />,
       codelink: "",
       weblink: "",
-      zoomlink: <a href="https://teros4me.github.io/kartor/lingan.png" target="_blank">Förstoring</a>
+      zoomlink: <a href="https://teros4me.github.io/kartor/lingan.png" target="_blank">Bild</a>
     },
     {
       id: 2,
@@ -52,7 +52,7 @@ const PortfolioList = () => {
       pic: <Image src={projekt_trad} height={300} alt={"Miniatyrbild av karta"} />,
       codelink: "",
       weblink: "",
-      zoomlink: <a href="https://teros4me.github.io/kartor/projekt_trad.png" target="_blank">Förstoring</a>
+      zoomlink: <a href="https://teros4me.github.io/kartor/projekt_trad.png" target="_blank">Bild</a>
     },
     {
       id: 1,
@@ -61,7 +61,7 @@ const PortfolioList = () => {
       pic: <Image src={projekt_barr} height={300} alt={"Miniatyrbild av karta"} />,
       codelink: "",
       weblink: "",
-      zoomlink: <a href="https://teros4me.github.io/kartor/projekt_barr.png" target="_blank">Förstoring</a>
+      zoomlink: <a href="https://teros4me.github.io/kartor/projekt_barr.png" target="_blank">Bild</a>
     }
   ]
   const projectList = projects.map(project => 

@@ -30,13 +30,16 @@ const About = () => {
             <p>&nbsp;</p>
             <h4 className='text-xl pt-8'>Utbildningar</h4>
             <p className="py-2 leading-8">
-            Mobila System och GIT, YH-utbildning, distans, Ocellus Information Systems, Uppsala, sep 2019 – jun 2021
+            Arbetsflöden i FME med fokus på GIS, YH-kurs, Folkuniversitetet, sep 2025 - jan 2026
+            </p>
+            <p className="py-2 leading-8">
+            Markmodellering och kartering med drönare, YH-kurs, Kartotek, Kista, mar 2024 - jun 2024
             </p>
             <p className="py-2 leading-8">
             Systemutvecklare .NET med AI-kompetens, YH-utbildning, Edugrade, Hudiksvall, sep 2021 - apr 2023
             </p>
             <p className="py-2 leading-8">
-            Markmodellering och kartering med drönare, YH-kurs, Kartotek, Kista, mar 2024 - jun 2024
+            Mobila System och GIT, YH-utbildning, distans, Ocellus Information Systems, Uppsala, sep 2019 – jun 2021
             </p>
         </div>
       </div>
