@@ -1,23 +1,117 @@
+import Progress from "./Progress";
+
 const About = () => {
+  const progressbars = [
+    {
+      skill: "Origo",
+      value: "100"
+    },
+    {
+      skill: "FME",
+      value: "67"
+    },
+    {
+      skill: "QGIS",
+      value: "67"
+    },
+    {
+      skill: "Geoserver",
+      value: "67"
+    },
+    {
+      skill: "Webbkartor",
+      value: "67"
+    },
+    {
+      skill: "Mapbox",
+      value: "67"
+    },
+    {
+      skill: "ArcMap",
+      value: "33"
+    },
+    {
+      skill: "ArcGIS Pro",
+      value: "33"
+    },
+    {
+      skill: "ArcGIS Online",
+      value: "33"
+    },
+    {
+      skill: "OpenLayers",
+      value: "33"
+    },
+    {
+      skill: "MapInfo",
+      value: "33"
+    },
+    {
+      skill: "Fotogrammetri",
+      value: "33"
+    },
+    {
+      skill: "Ortofoton",
+      value: "33"
+    },
+    {
+      skill: "Drönare",
+      value: "33"
+    },
+    {
+      skill: "HTML",
+      value: "67"
+    },
+    {
+      skill: "CSS",
+      value: "67"
+    },
+    {
+      skill: "JavaScript",
+      value: "67"
+    },
+    {
+      skill: "React/Next.js",
+      value: "33"
+    },
+    {
+      skill: "API",
+      value: "33"
+    },
+    {
+      skill: "JSON",
+      value: "67"
+    },
+    {
+      skill: "Databaser",
+      value: "67"
+    },
+    {
+      skill: "SQL",
+      value: "33"
+    },
+    {
+      skill: "Agila metoder",
+      value: "33"
+    }
+  ]
+  const progressList = progressbars.map(progress =>
+    <Progress key={progress.skill} progress={progress}/>
+  )
 
   return(
     <div className="flex flex-col py-10 lg:flex-row lg:flex-wrap">
       <div className="grid lg:grid-cols-2 gap-8">
-        <div className="shadow-lg p-5 rounded-xl bg-white dark:bg-black max-w-sm justify-center mx-auto">
+        <div className="shadow-lg p-5 rounded-xl bg-white dark:bg-black w-full lg:max-w-xl justify-center mx-auto">
           <h4 className='text-xl pt-8'>Datorkunskaper</h4>
-            <p className="py-2 leading-8">
-              <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Arbetat med: </span>
-                Origo, CSS, HTML, JSON, Javascript, Geoserver, QGIS, FME
-            </p>
-            <p className="py-2 leading-8">
-              <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Arbetat med på praktik: </span>
-                Azure, ASP.NET, React, Typescript, Agila metoder, Solen Pro / Admin, ArcGIS Online, MapInfo
-            </p>
-            <p className="py-2 leading-8">
-              <span className='dark:text-green-200 text-mygreen-55 font-semibold'>Skapat projekt med: </span>
-                API, Next.js, Designmönster, Databaser, Objektorienterad programmering, C#, Mapbox,
-                SQL, Java, XML, Android Studio, Multispec, ArcMap, QField
-            </p>
+          <div className="grid grid-cols-[auto,1fr] items-center gap-x-4 gap-y-2 w-full mt-4">
+          {progressbars.map(p => (
+          <>
+            <span className="whitespace-nowrap">{p.skill}</span>
+            <Progress value={p.value} />
+          </>
+        ))}
+          </div>
         </div>
         <div className="shadow-lg p-5 rounded-xl bg-white dark:bg-black max-w-lg justify-center mx-auto">
           <h4 className="text-xl font-medium pt-8 pb-2">Elijas Andersson</h4>

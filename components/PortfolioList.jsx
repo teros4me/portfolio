@@ -67,6 +67,7 @@ const PortfolioList = () => {
   const projectList = projects.map(project => 
   <Project key={project.id} project={project}/>
   )
+  
   return(
     <div className="flex flex-col py-10 lg:flex-row lg:flex-wrap">
       <div className="grid lg:grid-cols-3 gap-8">
